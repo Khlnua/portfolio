@@ -1,0 +1,23 @@
+.projectList {
+  display: flex;
+  border: 2px solid white;
+  border-radius: 10px;
+  gap: 20px;
+  width: 1220px;
+  height: 600px;
+}
+.projectpic {
+  width: 600px;
+  height: 600px;
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutProject {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

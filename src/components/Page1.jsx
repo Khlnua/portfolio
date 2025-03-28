@@ -23,8 +23,6 @@ export const Page1 = () => {
           <p className={styles.bio}>
             A beginner front-end developer based in Ulaanbaatar Mongolia,
             passionate about creating accessible and user-friendly websites.
-            Started my coding journey two months ago and eager to keep learning
-            and building!
           </p>
           <div className={styles.links}>
             <a className={styles.contactme} href="">
@@ -43,6 +41,16 @@ export const Page1 = () => {
           src="https://www.shutterstock.com/image-photo/happy-cheerful-45-year-old-600nw-2353012797.jpg"
           alt=""
         />
+      </div>
+
+      <div className={styles.line}></div>
+
+      <div className={styles.projectTitle}>
+        <h5 className={styles.h5}>Featured Projects</h5>
+        <p className={styles.projectDescription}>
+          Here are some of the selected projects that showcase my passion for
+          front-end development.
+        </p>
       </div>
     </div>
   );

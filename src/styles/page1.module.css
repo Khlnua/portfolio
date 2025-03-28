@@ -42,6 +42,7 @@
 .profilepic {
   width: 500px;
   height: 600px;
+  border-radius: 20px;
 }
 .title {
   width: 550px;
@@ -55,17 +56,49 @@
   font-family: "Bebas Neue", sans-serif;
 }
 .bio {
-  font-family: "Inter", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 18px;
-  margin-top: -120px;
+  margin-top: -140px;
+  color: #c7c7c7;
 }
 .links {
+  display: flex;
   height: 54px;
+  gap: 10px;
 }
 .contactme {
-  width: 190px;
-  height: 55px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 15px;
   border-radius: 100px;
   background: #d3e97a;
   color: black;
+}
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: #484848;
+}
+.projectTitle {
+  width: 600px;
+  height: 140px;
+  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: -50px;
+}
+.h5 {
+  height: 80px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 76px;
+}
+.projectDescription {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #c7c7c7;
+  margin-top: -120px;
 }

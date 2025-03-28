@@ -1,8 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap");
 
 body {
   margin: 0;
   padding: 0;
   background-color: black;
   color: white;
+}
+.works {
+  margin-top: 200px;
+  margin-left: 70px;
+  margin-right: 70px;
+  display: flex;
+  gap: 30px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
 }
